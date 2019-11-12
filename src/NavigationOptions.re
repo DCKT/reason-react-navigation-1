@@ -6,6 +6,7 @@ module Header = {
   // type renderFunction('params) = headerProps('params) => React.element; TODO
 
   external element: React.element => t = "%identity";
+  external null: Js.Null.t('a) => t = "%identity";
   // external render: renderFunction('params) => t = "%identity"; TODO
 };
 
